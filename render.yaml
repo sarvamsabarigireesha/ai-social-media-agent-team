@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-native-social-media-agent-team
+    runtime: python
+    plan: free
+    buildCommand: echo "Pure Python 3 ready"
+    startCommand: python3 server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0

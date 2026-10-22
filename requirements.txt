@@ -1,0 +1,1 @@
+# Pure Python 3 Standard Library — zero paid or fragile native C dependencies!
